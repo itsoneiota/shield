@@ -1,0 +1,21 @@
+{
+    "name": "itsoneiota/shield",
+    "description": "A thin wrapper for the SoapClient class, intended to shield developers from SoapClient's little oddities.",
+    "require": {
+
+    },
+    "require-dev": {
+        "phpunit/phpunit": "4.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "itsoneiota\\shield\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "rossmcf",
+            "email": "ross.mcfarlane@itsoneiota.com"
+        }
+    ]
+}
